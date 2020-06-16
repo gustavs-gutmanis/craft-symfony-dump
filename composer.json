@@ -1,7 +1,6 @@
 {
     "name": "gustavs-gutmanis/craft-symfony-dump",
     "description": "Symfony `dump` twig filter for Craft CMS",
-    "version": "1.0.0",
     "type": "craft-plugin",
     "authors": [
         {
@@ -23,7 +22,7 @@
         "docs": "https://github.com/gustavs-gutmanis/craft-symfony-dump",
         "issues": "https://github.com/gustavs-gutmanis/craft-symfony-dump/issues"
     },
-    "license": "Craft",
+    "license": "MIT",
     "require": {
         "craftcms/cms": "^3.0.0",
         "symfony/var-dumper": "^4.4.4",
