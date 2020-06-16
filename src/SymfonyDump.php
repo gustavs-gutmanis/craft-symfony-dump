@@ -30,8 +30,6 @@ class SymfonyDump extends BasePlugin
     {
         parent::init();
 
-        if (\Craft::$app->request->getIsSiteRequest()) {
-            \Craft::$app->view->registerTwigExtension(new SymfonyDumpTwigExtension());
-        }
+        \Craft::$app->view->registerTwigExtension(new SymfonyDumpTwigExtension());
     }
 }
