@@ -1,46 +1,46 @@
 {
-    "name": "gustavs-gutmanis/craft-symfony-dump",
-    "description": "Symfony `dump` twig filter for Craft CMS",
-    "type": "craft-plugin",
-    "authors": [
-        {
-            "name": "Gustavs Gutmanis",
-            "homepage": "https://github.com/gustavs-gutmanis"
-        }
-    ],
-    "keywords": [
-        "craft",
-        "cms",
-        "craftcms",
-        "craft-plugin",
-        "dump",
-        "symfony-dump",
-        "debugging",
-        "twig"
-    ],
-    "support": {
-        "docs": "https://github.com/gustavs-gutmanis/craft-symfony-dump",
-        "issues": "https://github.com/gustavs-gutmanis/craft-symfony-dump/issues"
-    },
-    "license": "MIT",
-    "require": {
-        "craftcms/cms": "^3.0.0",
-        "symfony/var-dumper": "^3.4.46 || ^4.4.0 || ^5.1.0"
-    },
-    "autoload": {
-        "psr-4": {
-          "GG\\SymfonyDump\\": "src/"
-        }
-    },
-    "extra": {
-        "name": "Symfony Dump Twig Filter",
-        "handle": "symfony-dump",
-        "developer": "Gustavs Gūtmanis",
-        "developerUrl": "https://github.com/gustavs-gutmanis",
-        "documentationUrl": "https://github.com/gustavs-gutmanis/craft-symfony-dump",
-        "changelogUrl": "https://raw.githubusercontent.com/gustavs-gutmanis/craft-symfony-dump/master/CHANGELOG.md",
-        "class": "GG\\SymfonyDump\\SymfonyDump",
-        "hasCpSettings": false,
-        "hasCpSection": false
+  "name": "gustavs-gutmanis/craft-symfony-dump",
+  "description": "Symfony `dump` twig filter for Craft CMS",
+  "type": "craft-plugin",
+  "authors": [
+    {
+      "name": "Gustavs Gutmanis",
+      "homepage": "https://github.com/gustavs-gutmanis"
     }
+  ],
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "dump",
+    "symfony-dump",
+    "debugging",
+    "twig"
+  ],
+  "support": {
+    "docs": "https://github.com/gustavs-gutmanis/craft-symfony-dump",
+    "issues": "https://github.com/gustavs-gutmanis/craft-symfony-dump/issues"
+  },
+  "license": "MIT",
+  "require": {
+    "craftcms/cms": "^3.0.0|^4.0.0-alpha",
+    "symfony/var-dumper": "^3.4.46 || ^4.4.0 || ^5.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GG\\SymfonyDump\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Symfony Dump Twig Filter",
+    "handle": "symfony-dump",
+    "developer": "Gustavs Gūtmanis",
+    "developerUrl": "https://github.com/gustavs-gutmanis",
+    "documentationUrl": "https://github.com/gustavs-gutmanis/craft-symfony-dump",
+    "changelogUrl": "https://raw.githubusercontent.com/gustavs-gutmanis/craft-symfony-dump/master/CHANGELOG.md",
+    "class": "GG\\SymfonyDump\\SymfonyDump",
+    "hasCpSettings": false,
+    "hasCpSection": false
+  }
 }
