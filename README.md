@@ -1,4 +1,4 @@
-# Symfony Dump Twig Filter plugin for Craft CMS 3.x
+# Symfony Dump Twig Filter plugin for Craft CMS `3.x|4.x`
 
 Symfony Dump Twig Filter allows using the `dump` twig filter in your craft templates for better debugging.
 
@@ -42,6 +42,6 @@ Once the plugin is installed, you can use it in any of your twig templates to ou
 
 This will yield the following result in your browser:
 
-![Screenshot](resources/img/debugger-bordered.png)
+![Screenshot](https://raw.githubusercontent.com/gustavs-gutmanis/craft-symfony-dump/master/resources/img/debugger-bordered.png)
 
 You can use the Symfony Dump filter on any object in twig.
